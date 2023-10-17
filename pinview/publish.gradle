@@ -22,7 +22,7 @@ def issueUrl = 'https://github.com/ChaosLeung/PinView/issues'
 def gitUrl = 'git@github.com:ChaosLeung/PinView.git'
 
 group = "io.github.chaosleung"
-version = "1.4.4"
+version = "1.4.5"
 
 def publication = publishing.publications.create("maven", MavenPublication)
 
