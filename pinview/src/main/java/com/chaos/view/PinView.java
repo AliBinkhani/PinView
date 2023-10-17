@@ -140,7 +140,7 @@ public class PinView extends AppCompatEditText {
 
         TypedArray a = theme.obtainStyledAttributes(attrs, R.styleable.PinView, defStyleAttr, 0);
 
-        mViewType = a.getInt(R.styleable.PinView_viewType, VIEW_TYPE_RECTANGLE);
+        mViewType = a.getInt(R.styleable.PinView_pinViewType, VIEW_TYPE_RECTANGLE);
         mPinItemCount = a.getInt(R.styleable.PinView_itemCount, DEFAULT_COUNT);
         mPinItemHeight = (int) a.getDimension(R.styleable.PinView_itemHeight,
                 res.getDimensionPixelSize(R.dimen.pv_pin_view_item_size));

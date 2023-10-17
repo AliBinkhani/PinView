@@ -71,7 +71,7 @@ Add PinView in your layout.
     app:itemWidth="48dp"
     app:lineColor="@color/line_colors"
     app:lineWidth="2dp"
-    app:viewType="rectangle" />
+    app:pinViewType="rectangle" />
 ```
 
 #### Java
@@ -152,7 +152,7 @@ or add `android:cursorVisible="true"`.
 * **itemSpacing**, the spacing between two items.
 * **lineWidth**, the line (border) width.
 * **lineColor**, the line (border) colors.
-* **viewType**, the view type of PinView, currently this will be one of `rectangle`, `line` or `none`.
+* **pinViewType**, the view type of PinView, currently this will be one of `rectangle`, `line` or `none`.
 * **cursorVisible**, show cursor or not.
 * **cursorColor**, the cursor color.
 * **cursorWidth**, the width of cursor.

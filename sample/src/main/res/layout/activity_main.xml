@@ -50,7 +50,7 @@
             app:itemWidth="48dp"
             app:lineColor="@color/line_colors"
             app:lineWidth="2dp"
-            app:viewType="rectangle">
+            app:pinViewType="rectangle">
 
             <requestFocus />
         </com.chaos.view.PinView>
@@ -72,7 +72,7 @@
             android:textColor="@color/colorAccent"
             app:hideLineWhenFilled="true"
             app:itemCount="3"
-            app:viewType="line" />
+            app:pinViewType="line" />
 
         <com.chaos.view.PinView
             android:layout_width="wrap_content"
